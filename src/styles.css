@@ -83,6 +83,33 @@
   --cyan-glow: oklch(0.82 0.14 210);
   --iridescent: oklch(0.88 0.08 180);
 
+  /* Console material system — obsidian / mercury / rose-quartz */
+  --obsidian: oklch(0.07 0.004 240);
+  --obsidian-deep: oklch(0.04 0.003 240);
+  --mercury: oklch(0.92 0.005 230);
+  --mercury-dim: oklch(0.62 0.006 230);
+  --rose-quartz: oklch(0.74 0.16 18);
+  --rose-glow: oklch(0.78 0.18 16);
+
+  --gradient-mercury: linear-gradient(
+    180deg,
+    oklch(0.96 0.004 230) 0%,
+    oklch(0.78 0.005 230) 45%,
+    oklch(0.42 0.006 240) 100%
+  );
+  --gradient-machined: linear-gradient(
+    135deg,
+    oklch(0.22 0.005 240) 0%,
+    oklch(0.10 0.004 240) 40%,
+    oklch(0.16 0.005 240) 60%,
+    oklch(0.08 0.004 240) 100%
+  );
+  --gradient-obsidian: radial-gradient(
+    ellipse at 50% 0%,
+    oklch(0.14 0.006 240) 0%,
+    oklch(0.04 0.003 240) 70%
+  );
+
   /* Cinematic gradients */
   --gradient-iridescent: linear-gradient(
     135deg,
