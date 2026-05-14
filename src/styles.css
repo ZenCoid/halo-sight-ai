@@ -36,6 +36,9 @@
   --color-emerald-glow: var(--emerald-glow);
   --color-cyan-glow: var(--cyan-glow);
   --color-iridescent: var(--iridescent);
+  --color-obsidian: var(--obsidian);
+  --color-mercury: var(--mercury);
+  --color-rose-quartz: var(--rose-quartz);
 
   --font-display: "Instrument Serif", ui-serif, Georgia, serif;
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
